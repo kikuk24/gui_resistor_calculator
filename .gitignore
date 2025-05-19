@@ -1,5 +1,30 @@
-.vs
+# Build results
+Debug/
+Release/
+x64/Debug/
+x64/Release/
 
-Resistor.B4A89A65
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.ncb
+*.sdf
+*.opensdf
+*.ipch
+*.cachefile
 
-x64
+# Build logs
+*.log
+
+# Others
+*.obj
+*.exe
+*.pdb
+*.idb
+*.pch
+*.ilk
+*.tlog
+*.lastbuildstate
