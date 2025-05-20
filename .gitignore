@@ -1,31 +1,49 @@
 # Build results
-.vs
+[Bb]in/
+[Oo]bj/
 Debug/
 Release/
 x64/Debug/
 x64/Release/
-Resistor.B4A89A65
-# Visual Studio files
+*.exe
+*.dll
+*.lib
+*.app
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+
+# Visual Studio
+.vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
 *.ncb
 *.sdf
 *.opensdf
 *.ipch
 *.cachefile
 
-# Build logs
+# Logs
 *.log
 
 # Others
+*.res
+*.aps
+*.rsp
+*.tmp
+*.bak
 *.obj
-*.exe
-*.pdb
-*.idb
-*.pch
-*.ilk
-*.tlog
-*.lastbuildstate
+
+# Ignore folder created by Resharper or Rider
+.idea/
+_ReSharper*/
+
+
+Thumbs.db
+Desktop.ini
